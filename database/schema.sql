@@ -119,16 +119,16 @@ CREATE TABLE Roles (
 
 -- Table: User
 CREATE TABLE Users (
-    User_ID bigint  NOT NULL,
-    First_Name varchar(128)  NOT NULL,
-    Last_Name varchar(128)  NOT NULL,
-    Role_ID bigint  NOT NULL,
-    Phone_Number varchar(20)  NOT NULL,
-    Email varchar(255)  NOT NULL,
-    Roles_Role_ID bigint  NOT NULL,
-    User_Login_Info_User_ID bigint  NOT NULL,
-    Is_Disabled boolean  NOT NULL DEFAULT false,
-    PRIMARY KEY (User_ID)
+    User_ID bigint  NOT NULL,
+    First_Name varchar(128)  NOT NULL,
+    Last_Name varchar(128)  NOT NULL,
+    Role_ID bigint  NOT NULL,
+    Phone_Number varchar(20)  NOT NULL,
+    Email varchar(255)  NOT NULL,
+    Roles_Role_ID bigint  NOT NULL,
+    User_Login_Info_User_ID bigint  NOT NULL,
+    Is_Disabled boolean  NOT NULL DEFAULT false,
+    PRIMARY KEY (User_ID)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 -- Table: User_Login_Info
 CREATE TABLE User_Login_Info (
